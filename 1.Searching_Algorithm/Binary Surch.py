@@ -2,92 +2,15 @@
 #     Time Complexity     : O(log n)
 #     Space Complexity    : O(1)
 #
-#     Best Cases          : ---
-#     Average Cases       : ---
-#     Worst Cases         : ---
+##     Best Cases          : O(1)
+#     Average Cases       : O(loge n)
+#     Worst Cases         : O(loge n)
 #
-# '''
-
-
-
-"""arr = [1,2,3,4,5,6]
-laf = 0
-right = len(arr)-1
-items = int(input())
-while laf<=r
-    middil = (laf+righight:t)//2
-
-    if arr[middil] == items:
-        print(middil)
-        exit()#
-    elif arr[middil]<items:
-        laf = middil+1
-    elif arr[middil]>items:
-        right = middil-1
-print('Not found items')
-"""
-
-'''
-arr = [1,2,3,4,5,6]
-laf = 0
-right = len(arr)-1
-items = int(input())
-while laf<=right:
-    middil = (laf+right)//2
-
-    if arr[middil] == items:
-        print(middil)
-        exit()
-    elif arr[laf] == items:
-        print(laf)
-        exit()
-    elif arr[right] == items:
-        print(right)
-        exit()
-    elif arr[middil]<items:
-        laf = middil +1#
-    elif arr[middil]>items:
-        right = middil-1
-print('NOT Found')
-'''
-
-
-# Competitive Problems 1 Solution
-'''class Solution:
-    def binarysearch(self, arr, n, k):
-        lapt, right = 0, len(arr)-1
-
-        while lapt <= right:
-            midile = (lapt + right) // 2
-            if arr[midile] == k:
-                return midile
-            elif arr[midile] < k:
-                lapt = midile + 1
-            else:
-                right = midile - 1
-        return -1
-
-if __name__ == '__main__':
-    for _ in range(int(input())):
-        n = int(input())
-        arr = list(map(int,input().split()))
-        k = int(input())
-        ob = Solution()
-        print(ob.binarysearch(arr,n,k))'''
-
-'''
-    Time Complexity     : O(log n)
-    Space Complexity    : O(1)
-
-    Best Cases          : ---
-    Average Cases       : ---
-    Worst Cases         : ---
-
-'''
-
+#
+# ''
 
 # Iterative implementation of Binary Search
-def Binary_Search(li, t):
+"""def Binary_Search(li, t):
     left = 0
     right = len(li) - 1
 
@@ -116,6 +39,9 @@ if __name__ == '__main__':
     print(res)
 
 '''
+
+
+
 # Python3 Program for recursive binary search.
 
 def binarySearch (arr, left, right, x):
