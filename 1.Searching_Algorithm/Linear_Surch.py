@@ -3,9 +3,9 @@
     Time Complexity     : O(n)
     Space Complexity    : O(1)
 
-    Best Cases          : ---
-    Average Cases       : ---
-    Worst Cases         : ---
+    Best Cases          : O(1)
+    Average Cases       : O(n)
+    Worst Cases         : O(n)
 
 '''
 def Linear_Search(li, t):
