@@ -9,7 +9,7 @@
     Average Case        : O(n^2)
 '''
 
-"""def Bubleshort(array):
+def Bubleshort(array):
     n  = len(array)
     for i in range(n):
         for j in range(0,n-i-1):
@@ -21,10 +21,10 @@ if __name__ == '__main__':
     print('Sorted array is :')
     for i in range(len(array)):
         print('%d'%array[i])
-"""
+
 
 # big to small code
-'''def Bubleshort(array):
+def Bubleshort(array):
     n  = len(array)
     for i in range(n):
         for j in range(0,n-i-1):
@@ -36,6 +36,6 @@ if __name__ == '__main__':
     print(array)
 
 
-'''
+
 
 
