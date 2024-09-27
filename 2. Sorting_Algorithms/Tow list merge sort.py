@@ -9,7 +9,7 @@
 
 '''
 
-"""def merge_sort(list_A,list_B):
+def merge_sort(list_A,list_B):
     len_a = len(list_A)
     leb_b = len(list_B)
     i = j = 0
@@ -35,16 +35,15 @@ if __name__ == '__main__':
     # Input Array
     list_A = list(map(int,input().split()))
     list_B = list(map(int,input().split()))
-    print(merge_sort(list_A,list_B))"""
+    print(merge_sort(list_A,list_B))
 
     # Other's Systems
     # list_A.sort()
     # list_B.sort()
     #print(merge_sort(list_A, list_B))
 
+#*************************************************************
 
-
-#**************************************
 # Class Function
 class Solution:
     def merge(self, arr1, arr2, n, m):
