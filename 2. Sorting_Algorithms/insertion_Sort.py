@@ -3,7 +3,7 @@
     Space Complexity    : O(1)
 '''
 
-"""def insertion_Sort(arr):
+def insertion_Sort(arr):
     for i in range(1,len((arr))):
         key = arr[i]
         j = i - 1
@@ -17,12 +17,11 @@ if __name__ == '__main__':
     arr = list(map(int,input().split()))
     rsult = insertion_Sort(arr)
     print(arr)
-"""
 
 
 # big to small code
 
-"""def InsertionSort(list):
+def InsertionSort(list):
     for i in range(1, len(list)):
         temp = list[i]
         j = i - 1
@@ -36,4 +35,3 @@ if __name__ == '__main__':
     InsertionSort(list)
     print("Array after sorting:")
     print(list)
-"""
