@@ -5,7 +5,7 @@
     Space Complexity    : O(n)
 '''
 
-"""def mergesort(list1):
+def mergesort(list1):
     if len(list1)>1:
         mid = len(list1)//2
         left_list = list1[:mid]
@@ -37,4 +37,4 @@ if __name__ == '__main__':
     list1 = [int(input()) for x in range (num)]
     mergesort(list1)
     print('Sorted list is : ',list1)
-"""
+
