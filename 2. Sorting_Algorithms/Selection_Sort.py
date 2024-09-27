@@ -10,7 +10,7 @@
 '''
 
 
-'''def selection_sort(arr,size):
+def selection_sort(arr,size):
     for i in range(size):
         main_index = i
         for j in range(i+1,size):
@@ -22,11 +22,9 @@ arr = list(map(int,input().split()))
 size  = len(arr)
 selection_sort(arr,size)
 
-'''
 
 
 # Class Function
-"""
 class Solution:
     def select(self, arr, i):
         pass
@@ -43,14 +41,16 @@ if __name__ == '__main__':
         n = int(input())
         arr = list(map(int,input().strip().split()))
         Solution().selectionSort(arr,n)
-        print(*arr)"""
+        print(*arr)
 
 
 
 
 
 # BIg To small Algorithms
-'''def selecton_sort(arr,n):
+
+
+def selecton_sort(arr,n):
     for i in range(n):
         main_index = i
         for j in range(i+1,n):
@@ -66,7 +66,6 @@ if __name__ == '__main__':
     print(arr)
 
 
-'''
 
 
 
