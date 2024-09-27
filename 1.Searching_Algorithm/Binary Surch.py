@@ -10,7 +10,7 @@
 # ''
 
 # Iterative implementation of Binary Search
-"""def Binary_Search(li, t):
+def Binary_Search(li, t):
     left = 0
     right = len(li) - 1
 
@@ -37,8 +37,6 @@ if __name__ == '__main__':
     t = int(input())
     res = Binary_Search(li, t)
     print(res)
-
-'''
 
 
 
