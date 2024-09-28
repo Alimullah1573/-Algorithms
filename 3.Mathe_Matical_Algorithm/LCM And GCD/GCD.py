@@ -19,3 +19,11 @@ num1 =  19
 num2 = 17
 
 print("The H.C.F. is", compute_hcf(num1, num2))
+
+
+
+
+from math import gcd, lcm
+a, b = 15, 20
+print(f'{a} and {b}->GCD:->', gcd(a, b))
+print(f'{a} and {b}->LCM:->', lcm(a, b))
