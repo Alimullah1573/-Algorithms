@@ -43,3 +43,9 @@ numbers = [10, 11, 15, 20]  # You can replace this with any list of numbers
 result = lcm_multiple(numbers)
 
 print(f"LCM of {numbers} is {result}")
+
+
+from math import gcd, lcm
+a, b = 15, 20
+print(f'{a} and {b}->GCD:->', gcd(a, b))
+print(f'{a} and {b}->LCM:->', lcm(a, b))
